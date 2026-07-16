@@ -30,15 +30,13 @@ void decryptCaesarCipher (string &Text,int Shift) {
 int main() {
     string Text;
     int Shift;
-    string task;
+    int task;
     getline(cin,Text);
     cin>>Shift;
     Shift = Shift%26;
     cin>>task;
-    for (char &c : task) {
-    c = tolower(c);
-}
-    if (task == "decrypt") {
+    
+    if (task == 2) {
         decryptCaesarCipher(Text,Shift);
     }else{
         encryptCaesarCipher(Text,Shift);
