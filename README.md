@@ -50,17 +50,17 @@ main.exe
 ## 📷 Sample Output
 
 ```
-Choose an option:
-1. Encrypt
-2. Decrypt
-
-Enter your choice: 1
 
 Enter the text:
 Hello World
 
 Enter shift value:
 3
+
+Choose an option:
+1. Encrypt
+2. Decrypt
+Enter your choice: 1
 
 Encrypted Text:
 Khoor Zruog
